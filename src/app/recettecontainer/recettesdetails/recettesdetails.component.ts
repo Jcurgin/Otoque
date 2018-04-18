@@ -4,6 +4,7 @@ import { RecetteService } from '../../shared/services/recette.service';
 import { Ingredient } from '../../shared/models/ingredient.model';
 import { PanierService } from '../../shared/services/panier.service';
 import { ActivatedRoute } from '@angular/router';
+import { Params } from '@angular/router';
  
 @Component({
   selector: 'app-recettesdetails',

@@ -1,9 +1,9 @@
 import { Route, RouterModule } from '@angular/router';
 
-import { PanierComponent } from './recettecontainer/panier/panier.component';
 import { RecettecontainerComponent } from './recettecontainer/recettecontainer.component';
 import { RecettesdetailsComponent } from './recettecontainer/recettesdetails/recettesdetails.component';
 import { RecetteeditComponent } from './recettecontainer/recetteedit/recetteedit/recetteedit.component';
+import { PanierComponent } from './panier/panier.component';
 
 
 

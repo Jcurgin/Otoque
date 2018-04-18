@@ -11,11 +11,12 @@ import { RecetteslistComponent } from './recettecontainer/recetteslist/recettesl
 import { RecettesdetailsComponent } from './recettecontainer/recettesdetails/recettesdetails.component';
 import { RecettecontainerComponent } from './recettecontainer/recettecontainer.component';
 import { ActiveDirective } from './shared/directives/active.directive';
-import { PanierComponent } from './recettecontainer/panier/panier.component';
-import { IngredientslistComponent } from './recettecontainer/panier/ingredientslist/ingredientslist.component';
+import { PanierComponent } from './panier/panier.component';
+
 import { AppRouting } from './app.routing';
 import { PanierService } from './shared/services/panier.service';
 import { RecetteeditComponent } from './recettecontainer/recetteedit/recetteedit/recetteedit.component';
+import { IngredientslistComponent } from './panier/ingredientslist/ingredientslist.component';
 
 
 
@@ -28,8 +29,8 @@ import { RecetteeditComponent } from './recettecontainer/recetteedit/recetteedit
     RecettecontainerComponent,
     ActiveDirective,
     PanierComponent,
-    IngredientslistComponent,
     RecetteeditComponent,
+    IngredientslistComponent
    
   ],
   imports: [
