@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="list-group col-12">
+    <a 
+      *ngFor="let recette of recettes;let index = index" 
+      [routerLink]="[index]"
+      routerLinkActive="active"
+       class="list-group-item list-group-item-action">{{recette.name}}</a>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <button class="btn btn-secondary"[routerLink]="['new']" > 
+    Ajouter une recette
+  </button>
+</div>
